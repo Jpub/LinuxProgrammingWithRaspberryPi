@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Raspberry Pi : Observation Server</title>
+    <meta http-equiv="refresh" content="5"; url="control.html">
+</head>
+<body>
+    <form action="control.html" method="GET" onSubmit="document.reload()">
+        <table>
+            <tr align="center"><img src=capture.bmp></tr>
+            <tr>
+                <td>LED</td>
+                <td><input type="radio" name="led" value="On"/>On</td>
+                <td><input type="radio" name="led" value="Off"/>Off</td> 
+            </tr>
+            <tr>
+                <td>Music</td>
+                <td><input type="checkbox" name="music" value="Play"/></td>
+            </tr>
+            <tr>
+                <td>Motor</td>
+                <td><input type="checkbox" name="motor" value="On"/></td>
+            </tr>
+            <tr>
+                <td>Submit</td>
+                <td><input type="submit" value="Submit"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

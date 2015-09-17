@@ -1,0 +1,11 @@
+test : main.o print.o input.o
+	gcc -o test main.o print.o input.o
+
+main.o : main.c
+	gcc -c main.c
+
+print.o : print.c 
+	gcc -c print.c
+
+input.o : input.c 
+	gcc -c input.c

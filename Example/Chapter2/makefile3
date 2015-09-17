@@ -1,0 +1,13 @@
+OBJECTS = main.o print.o input.o
+
+test : $(OBJECTS)
+	gcc -o test $(OBJECTS)
+
+main.o : main.c
+	gcc -c main.c
+
+print.o : print.c 
+	gcc -c print.c
+
+input.o : input.c 
+	gcc -c input.c
